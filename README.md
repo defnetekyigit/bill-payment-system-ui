@@ -13,6 +13,25 @@ https://github.com/defnetekyigit/bill-payment-system
 - Pay Bill
 - Intent parsing via OpenAI
 - All API calls go through Gateway
+## AI Agent Flow
+
+The mobile application provides a chat-based interface for the Bill Payment System.
+
+Flow:
+1. User sends a natural language message via chat UI
+2. Message is sent to the backend Chat Gateway
+3. Gateway uses OpenAI to parse intent and parameters
+4. Based on the intent, related Midterm API is called
+5. API response is formatted and shown in the chat UI
+
+Example Messages:
+- "Eylül ayı faturamı göster"
+- "Kasım ayı faturamın detaylarını göster"
+- "Kasım ayı faturamın 100 lirasını ödemek istiyorum"
+
+Assumptions:
+- User is already authenticated
+- Subscriber number is fixed as 123456 for demo purposes
 
 ### Demo Video
 https://youtube.com/xxxx
