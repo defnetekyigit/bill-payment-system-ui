@@ -34,7 +34,7 @@ Assumptions:
 - Subscriber number is fixed as 123456 for demo purposes
 
 ### Demo Video
-https://youtube.com/xxxx
+https://drive.google.com/file/d/1ICHnVtPZa1DjM1LaUUxHJ6EDXI49o5ZT/view?usp=sharing
 
 ## Get started
 
